@@ -2,5 +2,6 @@
 # file: site.yml
 - hosts: all
   roles:
-    - common
+    - common_install
+    - ntp
     - monitoring

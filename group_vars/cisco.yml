@@ -1,0 +1,6 @@
+---
+vars:
+  connection: network_cli
+  ansible_user: gromo
+  ansible_become: yes
+  ansible_become_method: enable

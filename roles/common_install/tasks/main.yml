@@ -1,0 +1,17 @@
+ ---
+ # Installing all packages with one task (faster)
+  - name: install required packages using the apt module
+    apt: package={{ item }}  update_cache=yes
+    sudo: True
+    with_items:
+      - git
+      - screen
+      - nmap
+      - snmp-mibs-downloader
+      - ipmitool
+      - unzip
+      - mpack
+      - mc
+      - vim-nox
+      - wget
+      - curl
