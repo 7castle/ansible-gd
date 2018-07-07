@@ -1,8 +1,8 @@
 ---
 # Variables listed here are applicable to all host groups
 vars:
-  ansible_user: petr
+  ansible_user: gdsupport
   ansible_become_user: root
   ansible_become_pass: K..
   ansible_become: yes
-  ansible_ssh_private_key_file: ~/.ssh/id_rsa
+  ansible_ssh_private_key_file: ../github.ansible-gd

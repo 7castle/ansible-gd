@@ -3,4 +3,5 @@ vars:
   connection: network_cli
   ansible_user: gr...
   ansible_become: yes
+  ansible_become_pass: K..
   ansible_become_method: enable
