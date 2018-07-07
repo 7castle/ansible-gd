@@ -1,5 +1,12 @@
 ---
-# This playbook deploys the whole application stack in this site.
+# This playbook deploys the whole basic stack.
+
+- name: install basic deb packages
+  hosts: all
+  remote_user: gdsupport
+  roles:
+    - common_install
+
 
 - name: apply ntp configuration to all nodes
   hosts: all

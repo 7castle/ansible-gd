@@ -1,7 +1,11 @@
+[all]
 localhost 
 
 [prox]
 nms.greendata.cz
 
-[stor]
+[all_wo_key]
 storage1
+
+[cisco]
+gd[1-38]
